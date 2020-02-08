@@ -16,6 +16,7 @@
 		702B82AD23EE539900C7F670 /* GrasshopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B82AC23EE539900C7F670 /* GrasshopperTests.swift */; };
 		702B82B823EE539900C7F670 /* GrasshopperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B82B723EE539900C7F670 /* GrasshopperUITests.swift */; };
 		702B82C923EE602400C7F670 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B82C823EE602400C7F670 /* User.swift */; };
+		702B82CB23EE602D00C7F670 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B82CA23EE602D00C7F670 /* Device.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		702B82B723EE539900C7F670 /* GrasshopperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrasshopperUITests.swift; sourceTree = "<group>"; };
 		702B82B923EE539900C7F670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		702B82C823EE602400C7F670 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		702B82CA23EE602D00C7F670 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				702B82C823EE602400C7F670 /* User.swift */,
+				702B82CA23EE602D00C7F670 /* Device.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				702B829623EE539800C7F670 /* AppDelegate.swift in Sources */,
 				702B829823EE539800C7F670 /* SceneDelegate.swift in Sources */,
 				702B829A23EE539800C7F670 /* ContentView.swift in Sources */,
+				702B82CB23EE602D00C7F670 /* Device.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

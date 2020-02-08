@@ -1,5 +1,5 @@
 //
-//  User.swift
+//  Device.swift
 //  Grasshopper
 //
 //  Created by ykkc on 2020/02/08.
@@ -8,14 +8,14 @@
 
 import Foundation
 
-struct User {
+struct Device {
     private var name: String
     private var image: String?
 }
 
-extension User {
+extension Device {
     static func fixture(
-        name: String = "ykkc",
+        name: String = "iPhone 8",
         image: String? = "image_url"
     ) -> Self {
         .init(
@@ -24,3 +24,4 @@ extension User {
         )
     }
 }
+
