@@ -10,7 +10,32 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            Spacer()
+            VStack {
+                CollectionItemView("貸出")
+                CollectionItemView("返却")
+                CollectionItemView("端末一覧")
+            }
+            Spacer()
+        }
+    }
+}
+
+struct CollectionItemView: View {
+    private var name: String
+    
+    init(_ name: String) {
+        self.name = name
+    }
+    
+    var body: some View {
+        Text(self.name)
+            .frame(width: 100, height: 100, alignment: .center)
+            .background(Color.orange)
+            .foregroundColor(Color.white)
+            .cornerRadius(16)
+            .padding(8)
     }
 }
 
