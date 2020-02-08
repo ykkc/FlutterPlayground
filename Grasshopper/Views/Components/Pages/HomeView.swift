@@ -10,14 +10,24 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        VStack {
-            Spacer()
+        NavigationView {
             VStack {
-                CollectionItemView("貸出")
-                CollectionItemView("返却")
-                CollectionItemView("端末一覧")
+                Spacer()
+                VStack {
+                    NavigationLink(destination: LendingView()) {
+                        CollectionItemView("貸出")
+                    }
+                    
+                    NavigationLink(destination: ReturningView()) {
+                        CollectionItemView("返却")
+                    }
+                    
+                    NavigationLink(destination: DeviceListView()) {
+                        CollectionItemView("端末一覧")
+                    }
+                }
+                Spacer()
             }
-            Spacer()
         }
     }
 }
