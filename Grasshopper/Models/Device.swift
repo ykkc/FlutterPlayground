@@ -16,7 +16,7 @@ struct Device {
 extension Device {
     static func fixture(
         name: String = "iPhone 8",
-        image: String? = "image_url"
+        image: String? = "photo"
     ) -> Self {
         .init(
             name: name,

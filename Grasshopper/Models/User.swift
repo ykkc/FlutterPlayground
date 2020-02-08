@@ -16,7 +16,7 @@ struct User {
 extension User {
     static func fixture(
         name: String = "ykkc",
-        image: String? = "image_url"
+        image: String? = "photo"
     ) -> Self {
         .init(
             name: name,
