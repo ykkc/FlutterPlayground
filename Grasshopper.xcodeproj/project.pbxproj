@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		702B829623EE539800C7F670 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B829523EE539800C7F670 /* AppDelegate.swift */; };
+		702B829823EE539800C7F670 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B829723EE539800C7F670 /* SceneDelegate.swift */; };
+		702B829A23EE539800C7F670 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B829923EE539800C7F670 /* ContentView.swift */; };
+		702B829C23EE539900C7F670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 702B829B23EE539900C7F670 /* Assets.xcassets */; };
+		702B829F23EE539900C7F670 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 702B829E23EE539900C7F670 /* Preview Assets.xcassets */; };
+		702B82A223EE539900C7F670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702B82A023EE539900C7F670 /* LaunchScreen.storyboard */; };
+		702B82AD23EE539900C7F670 /* GrasshopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B82AC23EE539900C7F670 /* GrasshopperTests.swift */; };
+		702B82B823EE539900C7F670 /* GrasshopperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B82B723EE539900C7F670 /* GrasshopperUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		702B82A923EE539900C7F670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 702B828A23EE539800C7F670 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 702B829123EE539800C7F670;
+			remoteInfo = Grasshopper;
+		};
+		702B82B423EE539900C7F670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 702B828A23EE539800C7F670 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 702B829123EE539800C7F670;
+			remoteInfo = Grasshopper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		702B829223EE539800C7F670 /* Grasshopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grasshopper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		702B829523EE539800C7F670 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		702B829723EE539800C7F670 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		702B829923EE539800C7F670 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		702B829B23EE539900C7F670 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		702B829E23EE539900C7F670 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		702B82A123EE539900C7F670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		702B82A323EE539900C7F670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		702B82A823EE539900C7F670 /* GrasshopperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrasshopperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		702B82AC23EE539900C7F670 /* GrasshopperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrasshopperTests.swift; sourceTree = "<group>"; };
+		702B82AE23EE539900C7F670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		702B82B323EE539900C7F670 /* GrasshopperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrasshopperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		702B82B723EE539900C7F670 /* GrasshopperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrasshopperUITests.swift; sourceTree = "<group>"; };
+		702B82B923EE539900C7F670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		702B828F23EE539800C7F670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702B82A523EE539900C7F670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702B82B023EE539900C7F670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		702B828923EE539800C7F670 = {
+			isa = PBXGroup;
+			children = (
+				702B829423EE539800C7F670 /* Grasshopper */,
+				702B82AB23EE539900C7F670 /* GrasshopperTests */,
+				702B82B623EE539900C7F670 /* GrasshopperUITests */,
+				702B829323EE539800C7F670 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		702B829323EE539800C7F670 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				702B829223EE539800C7F670 /* Grasshopper.app */,
+				702B82A823EE539900C7F670 /* GrasshopperTests.xctest */,
+				702B82B323EE539900C7F670 /* GrasshopperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		702B829423EE539800C7F670 /* Grasshopper */ = {
+			isa = PBXGroup;
+			children = (
+				702B829523EE539800C7F670 /* AppDelegate.swift */,
+				702B829723EE539800C7F670 /* SceneDelegate.swift */,
+				702B829923EE539800C7F670 /* ContentView.swift */,
+				702B829B23EE539900C7F670 /* Assets.xcassets */,
+				702B82A023EE539900C7F670 /* LaunchScreen.storyboard */,
+				702B82A323EE539900C7F670 /* Info.plist */,
+				702B829D23EE539900C7F670 /* Preview Content */,
+			);
+			path = Grasshopper;
+			sourceTree = "<group>";
+		};
+		702B829D23EE539900C7F670 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				702B829E23EE539900C7F670 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		702B82AB23EE539900C7F670 /* GrasshopperTests */ = {
+			isa = PBXGroup;
+			children = (
+				702B82AC23EE539900C7F670 /* GrasshopperTests.swift */,
+				702B82AE23EE539900C7F670 /* Info.plist */,
+			);
+			path = GrasshopperTests;
+			sourceTree = "<group>";
+		};
+		702B82B623EE539900C7F670 /* GrasshopperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				702B82B723EE539900C7F670 /* GrasshopperUITests.swift */,
+				702B82B923EE539900C7F670 /* Info.plist */,
+			);
+			path = GrasshopperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		702B829123EE539800C7F670 /* Grasshopper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 702B82BC23EE539900C7F670 /* Build configuration list for PBXNativeTarget "Grasshopper" */;
+			buildPhases = (
+				702B828E23EE539800C7F670 /* Sources */,
+				702B828F23EE539800C7F670 /* Frameworks */,
+				702B829023EE539800C7F670 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Grasshopper;
+			productName = Grasshopper;
+			productReference = 702B829223EE539800C7F670 /* Grasshopper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		702B82A723EE539900C7F670 /* GrasshopperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 702B82BF23EE539900C7F670 /* Build configuration list for PBXNativeTarget "GrasshopperTests" */;
+			buildPhases = (
+				702B82A423EE539900C7F670 /* Sources */,
+				702B82A523EE539900C7F670 /* Frameworks */,
+				702B82A623EE539900C7F670 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				702B82AA23EE539900C7F670 /* PBXTargetDependency */,
+			);
+			name = GrasshopperTests;
+			productName = GrasshopperTests;
+			productReference = 702B82A823EE539900C7F670 /* GrasshopperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		702B82B223EE539900C7F670 /* GrasshopperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 702B82C223EE539900C7F670 /* Build configuration list for PBXNativeTarget "GrasshopperUITests" */;
+			buildPhases = (
+				702B82AF23EE539900C7F670 /* Sources */,
+				702B82B023EE539900C7F670 /* Frameworks */,
+				702B82B123EE539900C7F670 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				702B82B523EE539900C7F670 /* PBXTargetDependency */,
+			);
+			name = GrasshopperUITests;
+			productName = GrasshopperUITests;
+			productReference = 702B82B323EE539900C7F670 /* GrasshopperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		702B828A23EE539800C7F670 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = ykkc;
+				TargetAttributes = {
+					702B829123EE539800C7F670 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					702B82A723EE539900C7F670 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 702B829123EE539800C7F670;
+					};
+					702B82B223EE539900C7F670 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 702B829123EE539800C7F670;
+					};
+				};
+			};
+			buildConfigurationList = 702B828D23EE539800C7F670 /* Build configuration list for PBXProject "Grasshopper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 702B828923EE539800C7F670;
+			productRefGroup = 702B829323EE539800C7F670 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				702B829123EE539800C7F670 /* Grasshopper */,
+				702B82A723EE539900C7F670 /* GrasshopperTests */,
+				702B82B223EE539900C7F670 /* GrasshopperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		702B829023EE539800C7F670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702B82A223EE539900C7F670 /* LaunchScreen.storyboard in Resources */,
+				702B829F23EE539900C7F670 /* Preview Assets.xcassets in Resources */,
+				702B829C23EE539900C7F670 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702B82A623EE539900C7F670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702B82B123EE539900C7F670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		702B828E23EE539800C7F670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702B829623EE539800C7F670 /* AppDelegate.swift in Sources */,
+				702B829823EE539800C7F670 /* SceneDelegate.swift in Sources */,
+				702B829A23EE539800C7F670 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702B82A423EE539900C7F670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702B82AD23EE539900C7F670 /* GrasshopperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702B82AF23EE539900C7F670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702B82B823EE539900C7F670 /* GrasshopperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		702B82AA23EE539900C7F670 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 702B829123EE539800C7F670 /* Grasshopper */;
+			targetProxy = 702B82A923EE539900C7F670 /* PBXContainerItemProxy */;
+		};
+		702B82B523EE539900C7F670 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 702B829123EE539800C7F670 /* Grasshopper */;
+			targetProxy = 702B82B423EE539900C7F670 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		702B82A023EE539900C7F670 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				702B82A123EE539900C7F670 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		702B82BA23EE539900C7F670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		702B82BB23EE539900C7F670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		702B82BD23EE539900C7F670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Grasshopper/Preview Content\"";
+				DEVELOPMENT_TEAM = X6T55S8M86;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Grasshopper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.ykkc.Grasshopper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		702B82BE23EE539900C7F670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Grasshopper/Preview Content\"";
+				DEVELOPMENT_TEAM = X6T55S8M86;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Grasshopper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.ykkc.Grasshopper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		702B82C023EE539900C7F670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X6T55S8M86;
+				INFOPLIST_FILE = GrasshopperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.ykkc.GrasshopperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grasshopper.app/Grasshopper";
+			};
+			name = Debug;
+		};
+		702B82C123EE539900C7F670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X6T55S8M86;
+				INFOPLIST_FILE = GrasshopperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.ykkc.GrasshopperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grasshopper.app/Grasshopper";
+			};
+			name = Release;
+		};
+		702B82C323EE539900C7F670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X6T55S8M86;
+				INFOPLIST_FILE = GrasshopperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.ykkc.GrasshopperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Grasshopper;
+			};
+			name = Debug;
+		};
+		702B82C423EE539900C7F670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X6T55S8M86;
+				INFOPLIST_FILE = GrasshopperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.ykkc.GrasshopperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Grasshopper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		702B828D23EE539800C7F670 /* Build configuration list for PBXProject "Grasshopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702B82BA23EE539900C7F670 /* Debug */,
+				702B82BB23EE539900C7F670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		702B82BC23EE539900C7F670 /* Build configuration list for PBXNativeTarget "Grasshopper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702B82BD23EE539900C7F670 /* Debug */,
+				702B82BE23EE539900C7F670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		702B82BF23EE539900C7F670 /* Build configuration list for PBXNativeTarget "GrasshopperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702B82C023EE539900C7F670 /* Debug */,
+				702B82C123EE539900C7F670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		702B82C223EE539900C7F670 /* Build configuration list for PBXNativeTarget "GrasshopperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702B82C323EE539900C7F670 /* Debug */,
+				702B82C423EE539900C7F670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 702B828A23EE539800C7F670 /* Project object */;
+}
