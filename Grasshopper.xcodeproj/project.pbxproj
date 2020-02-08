@@ -101,10 +101,8 @@
 			children = (
 				702B829523EE539800C7F670 /* AppDelegate.swift */,
 				702B829723EE539800C7F670 /* SceneDelegate.swift */,
-				702B829923EE539800C7F670 /* ContentView.swift */,
-				702B829B23EE539900C7F670 /* Assets.xcassets */,
-				702B82A023EE539900C7F670 /* LaunchScreen.storyboard */,
-				702B82A323EE539900C7F670 /* Info.plist */,
+				702B82C623EE591500C7F670 /* Views */,
+				702B82C523EE58D000C7F670 /* Supporting Files */,
 				702B829D23EE539900C7F670 /* Preview Content */,
 			);
 			path = Grasshopper;
@@ -134,6 +132,24 @@
 				702B82B923EE539900C7F670 /* Info.plist */,
 			);
 			path = GrasshopperUITests;
+			sourceTree = "<group>";
+		};
+		702B82C523EE58D000C7F670 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				702B829B23EE539900C7F670 /* Assets.xcassets */,
+				702B82A023EE539900C7F670 /* LaunchScreen.storyboard */,
+				702B82A323EE539900C7F670 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		702B82C623EE591500C7F670 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				702B829923EE539800C7F670 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -438,7 +454,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Grasshopper/Preview Content\"";
 				DEVELOPMENT_TEAM = X6T55S8M86;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Grasshopper/Info.plist;
+				INFOPLIST_FILE = "Grasshopper/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,7 +474,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Grasshopper/Preview Content\"";
 				DEVELOPMENT_TEAM = X6T55S8M86;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Grasshopper/Info.plist;
+				INFOPLIST_FILE = "Grasshopper/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
