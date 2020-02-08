@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		702B829623EE539800C7F670 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B829523EE539800C7F670 /* AppDelegate.swift */; };
 		702B829823EE539800C7F670 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B829723EE539800C7F670 /* SceneDelegate.swift */; };
-		702B829A23EE539800C7F670 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B829923EE539800C7F670 /* ContentView.swift */; };
+		702B829A23EE539800C7F670 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B829923EE539800C7F670 /* HomeView.swift */; };
 		702B829C23EE539900C7F670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 702B829B23EE539900C7F670 /* Assets.xcassets */; };
 		702B829F23EE539900C7F670 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 702B829E23EE539900C7F670 /* Preview Assets.xcassets */; };
 		702B82A223EE539900C7F670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702B82A023EE539900C7F670 /* LaunchScreen.storyboard */; };
@@ -40,7 +40,7 @@
 		702B829223EE539800C7F670 /* Grasshopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grasshopper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		702B829523EE539800C7F670 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		702B829723EE539800C7F670 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		702B829923EE539800C7F670 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		702B829923EE539800C7F670 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		702B829B23EE539900C7F670 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		702B829E23EE539900C7F670 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		702B82A123EE539900C7F670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -152,7 +152,7 @@
 		702B82C623EE591500C7F670 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				702B829923EE539800C7F670 /* ContentView.swift */,
+				702B82CC23EE70BD00C7F670 /* Components */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,6 +164,22 @@
 				702B82CA23EE602D00C7F670 /* Device.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		702B82CC23EE70BD00C7F670 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				702B82CD23EE70DB00C7F670 /* Pages */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		702B82CD23EE70DB00C7F670 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				702B829923EE539800C7F670 /* HomeView.swift */,
+			);
+			path = Pages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,7 +316,7 @@
 				702B82C923EE602400C7F670 /* User.swift in Sources */,
 				702B829623EE539800C7F670 /* AppDelegate.swift in Sources */,
 				702B829823EE539800C7F670 /* SceneDelegate.swift in Sources */,
-				702B829A23EE539800C7F670 /* ContentView.swift in Sources */,
+				702B829A23EE539800C7F670 /* HomeView.swift in Sources */,
 				702B82CB23EE602D00C7F670 /* Device.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
