@@ -20,6 +20,9 @@
 		702B82B823EE539900C7F670 /* GrasshopperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B82B723EE539900C7F670 /* GrasshopperUITests.swift */; };
 		702B82C923EE602400C7F670 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B82C823EE602400C7F670 /* User.swift */; };
 		702B82CB23EE602D00C7F670 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B82CA23EE602D00C7F670 /* Device.swift */; };
+		702B82CF23EE746900C7F670 /* LendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B82CE23EE746900C7F670 /* LendingView.swift */; };
+		702B82D123EE74DF00C7F670 /* ReturningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B82D023EE74DF00C7F670 /* ReturningView.swift */; };
+		702B82D323EE74EE00C7F670 /* DeviceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B82D223EE74EE00C7F670 /* DeviceListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,9 @@
 		702B82B923EE539900C7F670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		702B82C823EE602400C7F670 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		702B82CA23EE602D00C7F670 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		702B82CE23EE746900C7F670 /* LendingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LendingView.swift; sourceTree = "<group>"; };
+		702B82D023EE74DF00C7F670 /* ReturningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturningView.swift; sourceTree = "<group>"; };
+		702B82D223EE74EE00C7F670 /* DeviceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceListView.swift; sourceTree = "<group>"; };
 		746B1D29006E9F4DFEEF895B /* Pods-GrasshopperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrasshopperUITests.debug.xcconfig"; path = "Target Support Files/Pods-GrasshopperUITests/Pods-GrasshopperUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9CEAC411A9E1F01074D6A208 /* Pods-GrasshopperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrasshopperTests.release.xcconfig"; path = "Target Support Files/Pods-GrasshopperTests/Pods-GrasshopperTests.release.xcconfig"; sourceTree = "<group>"; };
 		B051F670611C5CB07865457E /* Pods-Grasshopper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grasshopper.debug.xcconfig"; path = "Target Support Files/Pods-Grasshopper/Pods-Grasshopper.debug.xcconfig"; sourceTree = "<group>"; };
@@ -195,6 +201,9 @@
 			isa = PBXGroup;
 			children = (
 				702B829923EE539800C7F670 /* HomeView.swift */,
+				702B82CE23EE746900C7F670 /* LendingView.swift */,
+				702B82D023EE74DF00C7F670 /* ReturningView.swift */,
+				702B82D223EE74EE00C7F670 /* DeviceListView.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -209,7 +218,6 @@
 				746B1D29006E9F4DFEEF895B /* Pods-GrasshopperUITests.debug.xcconfig */,
 				53E0FAC7A2EC330CA4D6638D /* Pods-GrasshopperUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -426,10 +434,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				702B82D123EE74DF00C7F670 /* ReturningView.swift in Sources */,
 				702B82C923EE602400C7F670 /* User.swift in Sources */,
 				702B829623EE539800C7F670 /* AppDelegate.swift in Sources */,
 				702B829823EE539800C7F670 /* SceneDelegate.swift in Sources */,
 				702B829A23EE539800C7F670 /* HomeView.swift in Sources */,
+				702B82CF23EE746900C7F670 /* LendingView.swift in Sources */,
+				702B82D323EE74EE00C7F670 /* DeviceListView.swift in Sources */,
 				702B82CB23EE602D00C7F670 /* Device.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
