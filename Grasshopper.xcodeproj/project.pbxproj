@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16D49FEA74D4983061076BFA /* Pods_Grasshopper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E70297CBCD3F9CD6336E70D /* Pods_Grasshopper.framework */; };
+		6D434BE4AE5042B21726ED4E /* Pods_GrasshopperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC5F61FE972C67C533C00FE /* Pods_GrasshopperTests.framework */; };
+		6D6E37D4210F509DBB45E94C /* Pods_GrasshopperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02AF9655C78E3C17FECB47B7 /* Pods_GrasshopperUITests.framework */; };
 		702B829623EE539800C7F670 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B829523EE539800C7F670 /* AppDelegate.swift */; };
 		702B829823EE539800C7F670 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B829723EE539800C7F670 /* SceneDelegate.swift */; };
-		702B829A23EE539800C7F670 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B829923EE539800C7F670 /* ContentView.swift */; };
+		702B829A23EE539800C7F670 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B829923EE539800C7F670 /* HomeView.swift */; };
 		702B829C23EE539900C7F670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 702B829B23EE539900C7F670 /* Assets.xcassets */; };
 		702B829F23EE539900C7F670 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 702B829E23EE539900C7F670 /* Preview Assets.xcassets */; };
 		702B82A223EE539900C7F670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702B82A023EE539900C7F670 /* LaunchScreen.storyboard */; };
 		702B82AD23EE539900C7F670 /* GrasshopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B82AC23EE539900C7F670 /* GrasshopperTests.swift */; };
 		702B82B823EE539900C7F670 /* GrasshopperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B82B723EE539900C7F670 /* GrasshopperUITests.swift */; };
+		702B82C923EE602400C7F670 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B82C823EE602400C7F670 /* User.swift */; };
+		702B82CB23EE602D00C7F670 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B82CA23EE602D00C7F670 /* Device.swift */; };
+		702B82CF23EE746900C7F670 /* LendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B82CE23EE746900C7F670 /* LendingView.swift */; };
+		702B82D123EE74DF00C7F670 /* ReturningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B82D023EE74DF00C7F670 /* ReturningView.swift */; };
+		702B82D323EE74EE00C7F670 /* DeviceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702B82D223EE74EE00C7F670 /* DeviceListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02AF9655C78E3C17FECB47B7 /* Pods_GrasshopperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrasshopperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE1B6FB2A720370D81BB622 /* Pods-Grasshopper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grasshopper.release.xcconfig"; path = "Target Support Files/Pods-Grasshopper/Pods-Grasshopper.release.xcconfig"; sourceTree = "<group>"; };
+		4E70297CBCD3F9CD6336E70D /* Pods_Grasshopper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grasshopper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53E0FAC7A2EC330CA4D6638D /* Pods-GrasshopperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrasshopperUITests.release.xcconfig"; path = "Target Support Files/Pods-GrasshopperUITests/Pods-GrasshopperUITests.release.xcconfig"; sourceTree = "<group>"; };
 		702B829223EE539800C7F670 /* Grasshopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grasshopper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		702B829523EE539800C7F670 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		702B829723EE539800C7F670 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		702B829923EE539800C7F670 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		702B829923EE539800C7F670 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		702B829B23EE539900C7F670 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		702B829E23EE539900C7F670 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		702B82A123EE539900C7F670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +61,16 @@
 		702B82B323EE539900C7F670 /* GrasshopperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrasshopperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		702B82B723EE539900C7F670 /* GrasshopperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrasshopperUITests.swift; sourceTree = "<group>"; };
 		702B82B923EE539900C7F670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		702B82C823EE602400C7F670 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		702B82CA23EE602D00C7F670 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		702B82CE23EE746900C7F670 /* LendingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LendingView.swift; sourceTree = "<group>"; };
+		702B82D023EE74DF00C7F670 /* ReturningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturningView.swift; sourceTree = "<group>"; };
+		702B82D223EE74EE00C7F670 /* DeviceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceListView.swift; sourceTree = "<group>"; };
+		746B1D29006E9F4DFEEF895B /* Pods-GrasshopperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrasshopperUITests.debug.xcconfig"; path = "Target Support Files/Pods-GrasshopperUITests/Pods-GrasshopperUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9CEAC411A9E1F01074D6A208 /* Pods-GrasshopperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrasshopperTests.release.xcconfig"; path = "Target Support Files/Pods-GrasshopperTests/Pods-GrasshopperTests.release.xcconfig"; sourceTree = "<group>"; };
+		B051F670611C5CB07865457E /* Pods-Grasshopper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grasshopper.debug.xcconfig"; path = "Target Support Files/Pods-Grasshopper/Pods-Grasshopper.debug.xcconfig"; sourceTree = "<group>"; };
+		B40374FDA32BF536B46F8B60 /* Pods-GrasshopperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrasshopperTests.debug.xcconfig"; path = "Target Support Files/Pods-GrasshopperTests/Pods-GrasshopperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EAC5F61FE972C67C533C00FE /* Pods_GrasshopperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrasshopperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16D49FEA74D4983061076BFA /* Pods_Grasshopper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D434BE4AE5042B21726ED4E /* Pods_GrasshopperTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D6E37D4210F509DBB45E94C /* Pods_GrasshopperUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +108,8 @@
 				702B82AB23EE539900C7F670 /* GrasshopperTests */,
 				702B82B623EE539900C7F670 /* GrasshopperUITests */,
 				702B829323EE539800C7F670 /* Products */,
+				D165097F1EB584E550B9CD48 /* Pods */,
+				FE0E58C3AB9013F071563616 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +129,7 @@
 				702B829523EE539800C7F670 /* AppDelegate.swift */,
 				702B829723EE539800C7F670 /* SceneDelegate.swift */,
 				702B82C623EE591500C7F670 /* Views */,
+				702B82C723EE601300C7F670 /* Models */,
 				702B82C523EE58D000C7F670 /* Supporting Files */,
 				702B829D23EE539900C7F670 /* Preview Content */,
 			);
@@ -147,9 +175,60 @@
 		702B82C623EE591500C7F670 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				702B829923EE539800C7F670 /* ContentView.swift */,
+				702B82CC23EE70BD00C7F670 /* Components */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		702B82C723EE601300C7F670 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				702B82C823EE602400C7F670 /* User.swift */,
+				702B82CA23EE602D00C7F670 /* Device.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		702B82CC23EE70BD00C7F670 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				702B82CD23EE70DB00C7F670 /* Pages */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		702B82CD23EE70DB00C7F670 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				702B829923EE539800C7F670 /* HomeView.swift */,
+				702B82CE23EE746900C7F670 /* LendingView.swift */,
+				702B82D023EE74DF00C7F670 /* ReturningView.swift */,
+				702B82D223EE74EE00C7F670 /* DeviceListView.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		D165097F1EB584E550B9CD48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B051F670611C5CB07865457E /* Pods-Grasshopper.debug.xcconfig */,
+				2CE1B6FB2A720370D81BB622 /* Pods-Grasshopper.release.xcconfig */,
+				B40374FDA32BF536B46F8B60 /* Pods-GrasshopperTests.debug.xcconfig */,
+				9CEAC411A9E1F01074D6A208 /* Pods-GrasshopperTests.release.xcconfig */,
+				746B1D29006E9F4DFEEF895B /* Pods-GrasshopperUITests.debug.xcconfig */,
+				53E0FAC7A2EC330CA4D6638D /* Pods-GrasshopperUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FE0E58C3AB9013F071563616 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E70297CBCD3F9CD6336E70D /* Pods_Grasshopper.framework */,
+				EAC5F61FE972C67C533C00FE /* Pods_GrasshopperTests.framework */,
+				02AF9655C78E3C17FECB47B7 /* Pods_GrasshopperUITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +238,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 702B82BC23EE539900C7F670 /* Build configuration list for PBXNativeTarget "Grasshopper" */;
 			buildPhases = (
+				F9F1BB791CAAA3C79AC59192 /* [CP] Check Pods Manifest.lock */,
 				702B828E23EE539800C7F670 /* Sources */,
 				702B828F23EE539800C7F670 /* Frameworks */,
 				702B829023EE539800C7F670 /* Resources */,
@@ -176,6 +256,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 702B82BF23EE539900C7F670 /* Build configuration list for PBXNativeTarget "GrasshopperTests" */;
 			buildPhases = (
+				6A8E8F72F7DF24130179B20C /* [CP] Check Pods Manifest.lock */,
 				702B82A423EE539900C7F670 /* Sources */,
 				702B82A523EE539900C7F670 /* Frameworks */,
 				702B82A623EE539900C7F670 /* Resources */,
@@ -194,6 +275,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 702B82C223EE539900C7F670 /* Build configuration list for PBXNativeTarget "GrasshopperUITests" */;
 			buildPhases = (
+				DB090B6CD463F37121D76AF8 /* [CP] Check Pods Manifest.lock */,
 				702B82AF23EE539900C7F670 /* Sources */,
 				702B82B023EE539900C7F670 /* Frameworks */,
 				702B82B123EE539900C7F670 /* Resources */,
@@ -278,14 +360,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6A8E8F72F7DF24130179B20C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrasshopperTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB090B6CD463F37121D76AF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrasshopperUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9F1BB791CAAA3C79AC59192 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Grasshopper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		702B828E23EE539800C7F670 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				702B82D123EE74DF00C7F670 /* ReturningView.swift in Sources */,
+				702B82C923EE602400C7F670 /* User.swift in Sources */,
 				702B829623EE539800C7F670 /* AppDelegate.swift in Sources */,
 				702B829823EE539800C7F670 /* SceneDelegate.swift in Sources */,
-				702B829A23EE539800C7F670 /* ContentView.swift in Sources */,
+				702B829A23EE539800C7F670 /* HomeView.swift in Sources */,
+				702B82CF23EE746900C7F670 /* LendingView.swift in Sources */,
+				702B82D323EE74EE00C7F670 /* DeviceListView.swift in Sources */,
+				702B82CB23EE602D00C7F670 /* Device.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +604,7 @@
 		};
 		702B82BD23EE539900C7F670 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B051F670611C5CB07865457E /* Pods-Grasshopper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +625,7 @@
 		};
 		702B82BE23EE539900C7F670 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE1B6FB2A720370D81BB622 /* Pods-Grasshopper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -488,6 +646,7 @@
 		};
 		702B82C023EE539900C7F670 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B40374FDA32BF536B46F8B60 /* Pods-GrasshopperTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +669,7 @@
 		};
 		702B82C123EE539900C7F670 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CEAC411A9E1F01074D6A208 /* Pods-GrasshopperTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +692,7 @@
 		};
 		702B82C323EE539900C7F670 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 746B1D29006E9F4DFEEF895B /* Pods-GrasshopperUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -552,6 +713,7 @@
 		};
 		702B82C423EE539900C7F670 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53E0FAC7A2EC330CA4D6638D /* Pods-GrasshopperUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

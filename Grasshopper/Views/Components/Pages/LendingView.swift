@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  LendingView.swift
 //  Grasshopper
 //
 //  Created by ykkc on 2020/02/08.
@@ -8,14 +8,16 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct LendingView: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            Text("LendingView")
+        }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct LendingView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LendingView()
     }
 }
