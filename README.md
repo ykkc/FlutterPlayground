@@ -1,36 +1,16 @@
-# Grasshopper
+# grasshopper
 
-- 端末を管理するアレです
+A new Flutter project.
 
-# Environment
+## Getting Started
 
-## Develop Environment
+This project is a starting point for a Flutter application.
 
-```
-- Xcode: 11.3.1
-- Swift: 5.1.3
-```
+A few resources to get you started if this is your first Flutter project:
 
-## Project Build
+- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-- N/A
-
-# Development Guideline
-
-## Testing Guideline
-
-- N/A
-
-## Libraries
-
-### CocoaPods
-
-- N/A
-
-### Carthage
-
-- N/A
-
-## CI/CD
-
-- N/A
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
